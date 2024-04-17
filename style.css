@@ -101,17 +101,48 @@ body {
 }
 
 .menu__item {
-
-  margin-bottom: 20px;
+  margin-bottom: 5px;
   padding-left:20px;
   line-height: 1.5;
 }
-  
+
 ::marker {
   color: var(--Nutmeg);
 }
+  
+hr {
+  width: 90%;
+}
 
+.menu-nutrition {
+  width: 90%;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
 
+.values__dates {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 0;
+}
+  
+ .values__dates p {
+  margin: 0;
+  height: 25px;
+ } 
+ 
+.dates-name {
+  width: 55px;
+  color: var(--Wenge-Brown);
+  font-size: 14px;
+}
+  
+.dates-number {
+ width: 55px;
+ color: var(--Nutmeg);
+} 
+
+  
 
 
   
