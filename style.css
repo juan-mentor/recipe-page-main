@@ -43,6 +43,8 @@
   font-style: normal;
 }
 
+/*Estilos generales*/
+
 * {
   box-sizing: border-box;
 }
@@ -52,6 +54,7 @@ body {
   font-size: 16px;
 }
   
+/*Estilos móvil*/
 
 .main__img {
   width: 100%;
@@ -65,15 +68,62 @@ body {
 .main__center {
   width: 90%;
   margin: auto;
+  margin-bottom: 40px;
 }
 
 .main__title {
   font-size: 2.4rem;
 }
-
-
+  
 .main__paragraph {
   line-height: 1.5;
   width: 90%;
   color: var(--Wenge-Brown);
 }
+
+
+.main__center--time {
+  background-color: var(--Rose-White);
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.main__subtitle {
+  color: var(--Nutmeg);
+}
+
+.main__subtitle--p {
+  color: var(--Dark-Raspberry);
+}
+
+.menu-time {
+  width: 70%;
+}
+
+.menu__item {
+
+  margin-bottom: 20px;
+  padding-left:20px;
+  line-height: 1.5;
+}
+  
+::marker {
+  color: var(--Nutmeg);
+}
+
+
+
+
+  
+
+  
+  
+
+
+
+
+  
+  
+
+
+  
