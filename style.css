@@ -52,13 +52,21 @@
 body {
   margin: 0;
   font-size: 16px;
+  background-color: var(--Eggshell);
 }
   
+  
 /*Estilos móvil*/
-
+.main-container {
+  background-color: var(--White);
+  max-width: 740px;
+  min-width: 320px;
+  margin: auto;
+}
 .main__img {
   width: 100%;
   height: 170px;
+  
   background-image: url('assets/images/image-omelette.jpeg');
   background-size: cover;
   background-position: center;
@@ -130,7 +138,7 @@ hr {
   margin: 0;
   height: 25px;
  } 
- 
+
 .dates-name {
   width: 55px;
   color: var(--Wenge-Brown);
@@ -142,7 +150,37 @@ hr {
  color: var(--Nutmeg);
 } 
 
-  
+/* Css escritorio */
+
+@media screen and (min-width:600px) {
+  .main-container {
+    margin: 50px auto;
+    border-radius: 20px;
+    padding: 40px;
+  }
+
+  .main__img {
+    height: 300px;
+  }
+
+  .main__paragraph {
+    width: 100%;
+  }
+
+  .main__center {
+    width: 100%;
+  }
+
+  hr {
+    width: 100%;
+  }
+
+  .values__dates {
+    justify-content:flex-start;
+    gap: 240px;
+    margin-left: 20px;
+  }
+}
 
 
   
